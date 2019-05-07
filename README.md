@@ -1,4 +1,4 @@
-## Major HTTP methods
+## REST API
 
 **CONTENT**
 
