@@ -38,8 +38,8 @@ Let's see what they go for with [Google Cloud examples](https://cloud.google.com
 
 |Verb       | Utilization           | Example  |
 | ------------- |:-------------:| -----:|
-| GET      | retrieves information from the server | GET < resource UR > |
-| PUT      | replaces representations with new content     |   PUT < resource URL > |
+| GET      | retrieves information from the server | GET < resource URL > |
+| PUT      | replaces representations with new content     |   PUT <resource URL> |
 | POST | sends data to the server     | POST < collection URL > |
 | DELETE | removes representations      | DELETE < resource URL > |
 
