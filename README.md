@@ -58,7 +58,7 @@ JSON representation would be as follows:
 ```
 where "students" object(Student) means students who match the list request.
 
-We can expand the request and JSON representation would be as follows:
+We can expand the request, and the JSON representation would be as follows:
 
 ```
 {
