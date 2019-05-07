@@ -38,9 +38,11 @@ Let's see what they go for with [Google Cloud examples](https://cloud.google.com
 
 |Verb       | Utilization           | HTTP Mapping  |
 | ------------- |:-------------:| -----:|
-| GET      | retrieves information from the server | GET https://classroom.googleapis.com/v1/courses/{courseId}/students/{userId} |
-| PUT      | replaces representations with new content     |   PUT https://classroom.googleapis.com/v1/courses/{courseId}/students/{userId} |
-| POST | sends data to the server     | POST https://classroom.googleapis.com/v1/courses/{courseId}/students |
-| DELETE | removes representations      | DELETE https://classroom.googleapis.com/v1/courses/{courseId}/students/{userId} |
+| GET      | retrieves information from the server | GET < resource URL > |
+| PUT      | replaces representations with new content     |   PUT < resource URL > |
+| POST | sends data to the server     | POST < collection URL > |
+| DELETE | removes representations      | DELETE < resource URL > |
+
+Based on the [Google Classroom API example](https://developers.google.com/classroom/reference/rest/v1/courses.students/list), let's see how to extract list of students:
 
 
