@@ -28,6 +28,7 @@ To show how it works, we'll make a real-life example. Let's take a look at Twitt
 
 This example returns results in JSON format with the 3 latest tweets matching "jQuery" wording.
 
+----------------------------------
 
 **2. Primary HTTP verbs: GET, PUT, POST, DELETE**
 
@@ -37,6 +38,8 @@ Let's see what they go for:
 
 |Verb       | Utilization           | Description  |
 | ------------- |:-------------:| -----:|
-| col 3 is      | right-aligned | $1600 |
-| col 2 is      | centered      |   $12 |
-| zebra stripes | are neat      |    $1 |
+| GET      | retrieves information from the server through the given URI | $1600 |
+| PUT      | replaces representations with new content     |   $12 |
+| POST | sends data to the server     |    $1 |
+| DELETE | removes representations      |    $1 |
+
