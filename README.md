@@ -25,5 +25,7 @@ To make a real-life example, let's take a look at Twitter: if you need to get th
 
 ```http://search.twitter.com/search.json?q=jQuery&result_type=recent&rpp=3```
 
+The example above returns results in JSON format with the 3 latest tweets matching "jQuery" as shown in the wording.
+
 **2. Primary HTTP verbs: GET, PUT, POST, DELETE**
 
