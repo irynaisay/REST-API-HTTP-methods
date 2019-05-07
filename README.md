@@ -34,12 +34,12 @@ This example returns results in JSON format with the 3 latest tweets matching "j
 
 There are several major HTTP verbs (or the so called methods) used to read, update/replace, create, and delete operations, namely: GET, PUT, POST, and DELETE.
 
-Let's see what they go for:
+Let's see what they go for with [Google Cloud examples](https://cloud.google.com/apis/design/standard_methods):
 
-|Verb       | Utilization           | Description  |
+|Verb       | Utilization           | Example  |
 | ------------- |:-------------:| -----:|
-| GET      | retrieves information from the server through the given URI | $1600 |
-| PUT      | replaces representations with new content     |   $12 |
-| POST | sends data to the server     |    $1 |
-| DELETE | removes representations      |    $1 |
+| GET      | retrieves information from the server | GET <resource URL> |
+| PUT      | replaces representations with new content     |   PUT <resource URL> |
+| POST | sends data to the server     | POST <collection URL> |
+| DELETE | removes representations      | DELETE <resource URL> |
 
