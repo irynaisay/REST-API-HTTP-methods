@@ -45,4 +45,23 @@ Let's see what they go for with [Google Cloud examples](https://cloud.google.com
 
 Based on the [Google Classroom API example](https://developers.google.com/classroom/reference/rest/v1/courses.students/list), let's see how to extract list of students:
 
+HTTP request: GET <https://classroom.googleapis.com/v1/courses/{courseId}/students>
+JSON representation:
+
+```
+{
+  "courseId": string,
+  "userId": string,
+  "profile": {
+    object(UserProfile)
+  },
+  "studentWorkFolder": {
+    object(DriveFolder)
+  }
+}
+```
+where 
+- courseId string means identifier of the cours
+- 
+
 
