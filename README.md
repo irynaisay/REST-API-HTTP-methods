@@ -43,10 +43,22 @@ Let's see what they go for with [Google Cloud examples](https://cloud.google.com
 | POST | sends data to the server     | POST < collection URL > |
 | DELETE | removes representations      | DELETE < resource URL > |
 
-Based on the [Google Classroom API example](https://developers.google.com/classroom/reference/rest/v1/courses.students/list), let's see how to extract list of students:
+Based on the [Google Classroom API example](https://developers.google.com/classroom/reference/rest/v1/courses.students/list), let's see how to extract list of students: HTTP request: GET <https://classroom.googleapis.com/v1/courses/{courseId}/students>
 
-HTTP request: GET <https://classroom.googleapis.com/v1/courses/{courseId}/students>
-JSON representation:
+JSON representation would be as follows:
+```
+{
+  "students": [
+    {
+      object(Student)
+    }
+  ],
+  "nextPageToken": string
+}
+```
+where "students" object(Student) means students who match the list request.
+
+We can expand the request and JSON representation would be as follows:
 
 ```
 {
@@ -61,7 +73,9 @@ JSON representation:
 }
 ```
 where 
-- courseId string means identifier of the cours
-- 
+- courseId string means identifier of the course
+- userId string means identifier of the user
+- profile object(UserProfile) means global user information for the student
+- studentWorkFolder	object(DriveFolder) means information about a Drive Folder for this student's work in this course
 
-
+You can epand the methods with more HTTP verbs.
